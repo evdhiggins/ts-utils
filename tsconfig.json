@@ -1,0 +1,32 @@
+{
+    "compilerOptions": {
+        "lib": ["ES2020"],
+        "target": "ES2020",
+        "module": "ES2020",
+        "moduleResolution": "node",
+        "outDir": "./built",
+        "sourceMap": true,
+        "declaration": true,
+
+        // type checking options
+        "allowUnreachableCode": false,
+        "allowUnusedLabels": false,
+        "alwaysStrict": true,
+        "exactOptionalPropertyTypes": true,
+        "noFallthroughCasesInSwitch": false,
+        "noImplicitAny": true,
+        "noImplicitOverride": true,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "noPropertyAccessFromIndexSignature": true,
+        "noUncheckedIndexedAccess": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": false,
+        "strictBindCallApply": true,
+        "strictFunctionTypes": true,
+        "strictNullChecks": true,
+        "strictPropertyInitialization": true,
+        "useUnknownInCatchVariables": false
+    },
+    "include": ["src"]
+}

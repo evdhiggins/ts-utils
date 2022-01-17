@@ -1,0 +1,14 @@
+.vscode
+node_modules
+src
+
+.eslintignore
+.eslintrc
+.gitignore
+.npmrc
+.nvmrc
+.pretierrc
+jest.config.json
+readme.md
+
+.env

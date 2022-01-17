@@ -1,0 +1,34 @@
+{
+    "name": "ts-utils",
+    "version": "0.0.1",
+    "description": "A collection of typescript utility functions and types",
+    "main": "built/index.js",
+    "type": "module",
+    "scripts": {
+        "build": "tsc -p ./tsconfig.build.json",
+        "lint": "eslint '*/**/*.{ts}' --quiet --fix",
+        "test": "jest"
+    },
+    "keywords": [
+        "typescript",
+        "ts",
+        "util",
+        "utilities",
+        "helpers"
+    ],
+    "author": "Evan Higgins <evdhiggins@gmail.com>",
+    "license": "MIT",
+    "devDependencies": {
+        "@types/jest": "27.4.0",
+        "@typescript-eslint/eslint-plugin": "5.9.1",
+        "@typescript-eslint/parser": "5.9.1",
+        "eslint": "8.7.0",
+        "eslint-config-prettier": "8.3.0",
+        "eslint-plugin-prettier": "4.0.0",
+        "jest": "27.4.7",
+        "prettier": "2.5.1",
+        "ts-jest": "27.1.3",
+        "ts-node": "10.4.0",
+        "typescript": "4.5.4"
+    }
+}
