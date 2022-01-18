@@ -4,6 +4,7 @@
     "description": "A collection of typescript utility functions and types",
     "main": "built/index.js",
     "type": "module",
+    "sideEffects": false,
     "scripts": {
         "build": "tsc -p ./tsconfig.build.json",
         "lint": "eslint '*/**/*.{ts}' --quiet --fix",
